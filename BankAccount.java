@@ -37,35 +37,43 @@ public class BankAccount {
         }
     }
 
-    public static void main(String[] args) {
-                BankAccount user1 = new BankAccount("Kush", 5000.00, "SC123456789");
-                BankAccount user2 = new BankAccount("Bhavneet ", 9999999.99, "Bank Of Universe");
 
-                // 👨‍💼 Role: Account Holder (can see details)
-                System.out.println("Welcome, " + user1.getAccountHolder());
-                System.out.println("Account Number: " + user1.getAccountNumber());
-                System.out.println("Balance: $" + user1.getBalance());
+     public static void main(String[] args) {
+        BankAccount userAccount = new BankAccount("Bhavneet",999999.99,"IFCN Bank of universe"); // starting with $500
+        Cashier cashier = new Cashier("Aman");
 
-                //  Role: Security Guard (tries to access balance - not allowed)
-                //  System.out.println(user1.balance); // ERROR: balance is private
+        // Simulate customer actions
+        cashier.handleDeposit(userAccount, 200);      // should show $700
+        cashier.handleWithdrawal(userAccount, 100);   // should show $600
+        cashier.handleWithdrawal(userAccount, 1000);  // invalid, not enough funds
+        cashier.handleDeposit(userAccount, -50);      // invalid deposit
+    }
 
-                // Only way to change is through controlled deposit/withdraw
-                user1.deposit(1000);
-                user1.withdraw(300);
+}
 
-                System.out.println("Updated Balance: $" + user2.getBalance());
-                 System.out.println("Welcome, " + user2.getAccountHolder());
-                System.out.println("Account Number: " + user2.getAccountNumber());
-                System.out.println("Balance: $" + user2.getBalance());
-                user2.deposit(99999999);
+    class Cashier {
+    private String name;
 
-                //  Role: Security Guard (tries to access balance - not allowed)
-                //  System.out.println(user1.balance); // ERROR: balance is private
+    public Cashier(String name) {
+        this.name = name;
+    }
 
-                // Only way to change is through controlled deposit/withdraw
-                user1.deposit(1000);
-                user2.withdraw(300);
+    public void handleDeposit(BankAccount account, double amount) {
+        System.out.println("🧾 Cashier " + name + " processing deposit...");
+        account.deposit(amount);
+        printReceipt(account);
+    }
 
-                System.out.println("Updated Balance: $" + user2.getBalance());
-        }
+    public void handleWithdrawal(BankAccount account, double amount) {
+        System.out.println("🧾 Cashier " + name + " processing withdrawal...");
+        account.withdraw(amount);
+        printReceipt(account);
+    }
+
+    private void printReceipt(BankAccount account) {
+        System.out.println("📄 Receipt: Current Balance = $" + account.getBalance());
+        System.out.println("━━━━━━━━━━━━━━━━━━━━━");
+    }
+
+
 }
