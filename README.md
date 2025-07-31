@@ -135,3 +135,8 @@ https://www.w3schools.com/quiztest/quiztest.asp?qtest=JAVA
 https://www.geeksforgeeks.org/quizzes/java-basics-and-identifiers/
 
 
+
+Some basic java scaNNER CLASS inout values and there output we will seee where we can get some values from the user and let them dispaly via some scanner class and we will see in the code file 
+
+
+
