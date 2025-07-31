@@ -19,10 +19,115 @@ The BMW M8 (especially Competition trims) typically comes with Harman Kardon or 
 
 12 to 16 speakers
 
-Amplifier with DSP (Digital Signal Processor)
-
-Up to 464 watts of power
-
 3D surround optimization
 
-Speaker placement: dash, doors, pillars, rear shelf, and subwoofers under the seats
+Speaker placement: dash, doors, pillars, rear shelf, and subwoofers under the seatsà
+
+
+
+
+
+
+
+Multiple Choice (1 point each)
+What is the default value of an int in Java?
+
+a) 0
+
+b) null
+
+c) undefined
+
+d) 1
+
+Which of the following is a valid Java variable name?
+
+a) 2value
+
+b) _value
+
+c) class
+
+d) double
+
+Which data type is used to store a single character?
+
+a) String
+
+b) char
+
+c) Character
+
+d) Text
+
+What is the size of a float variable in Java?
+
+a) 2 bytes
+
+b) 4 bytes
+
+c) 8 bytes
+
+d) 1 byte
+
+Which of the following is not a primitive data type in Java?
+
+a) int
+
+b) boolean
+
+c) String
+
+d) double
+
+Which keyword is used to declare a constant in Java?
+
+a) let
+
+b) final
+
+c) const
+
+d) static
+
+What is the result of this expression: 5 + 2 * 3?
+
+a) 21
+
+b) 11
+
+c) 15
+
+d) 7
+
+Which of these is a correct declaration of a long type variable?
+
+a) long x = 123456789;
+
+b) long x = 123456789L;
+
+c) long x = "123";
+
+d) long x = 123.45;
+
+Which type can store more precise decimal values?
+
+a) float
+
+b) int
+
+c) double
+
+d) byte
+
+Which operator is used to compare two values for equality?
+
+a) =
+
+b) ==
+
+c) equals
+
+d) !=
+
+
