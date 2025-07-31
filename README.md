@@ -132,4 +132,6 @@ d) !=
 
 cheack out the next quiz from the w3 school 
 https://www.w3schools.com/quiztest/quiztest.asp?qtest=JAVA
+https://www.geeksforgeeks.org/quizzes/java-basics-and-identifiers/
+
 
