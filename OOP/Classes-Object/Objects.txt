@@ -13,3 +13,10 @@ Class
 − Describes the data (attributes)
 − Defines the behavior (methods)
 ● Instances of a class are objects
+
+
+Encapsulation
+● Bundling of data with the methods that operate on that data (restricting of direct access to some of an object's components)
+● Hides the implementation details of a class
+● Forces the user to use an interface to access data
+● Makes the code more maintainable
