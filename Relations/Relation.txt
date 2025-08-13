@@ -26,3 +26,13 @@ Characteristics:
 
 Characteristics:
                      The contained object cannot exist without the parent.
+
+                                                                                   Relationships Between Classes
+
+In object-oriented programming (OOP), classes often interact with each other. The cardinality of a relationship describes how many objects of one class can be associated with objects of another class.
+
+1. One-to-One Relationship: =>         Meaning: Each object of Class A is related to exactly one object of Class B, and vice versa.
+
+                              Example:
+                                     A Passport belongs to one Person.
+                                     One Person can have only one Passport.
