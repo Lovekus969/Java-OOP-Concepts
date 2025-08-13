@@ -36,3 +36,10 @@ In object-oriented programming (OOP), classes often interact with each other. Th
                               Example:
                                      A Passport belongs to one Person.
                                      One Person can have only one Passport.
+
+2. One-to-Many Relationship: =>        Meaning: One object of Class A can be related to multiple objects of Class B, but each Class B object is related to only one object of Class A.
+
+                              Example:
+
+                                   A Teacher can teach many Students.
+                                   But each Student has only one Teacher (in this simplified example).
