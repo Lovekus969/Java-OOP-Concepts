@@ -20,3 +20,12 @@ Creates a new object by copying another object
            Automatically called when object is created
            You can overload constructors in the same class
 
+Q .What is super?
+       Super is a reference to the parent class (superclass).
+It is used to:
+        Call the parent class constructor
+        Access parent class methods
+        Access parent class variables
+
+Super in Constructors has another meaning .
+When a child class is created, it can call the constructor of its parent class using super(...).This ensures the parent class is properly initialized before the child class adds its own data.
