@@ -9,3 +9,10 @@ Association:=>>
 Characteristics:
                      One class uses another class.
                      No ownership; objects can exist independently.
+
+Aggregation: =>>
+   Definition:       A has-a relationship with weak ownership.
+
+Characteristics:
+
+                    The contained object can exist independently of the parent.
