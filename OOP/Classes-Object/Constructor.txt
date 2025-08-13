@@ -1,0 +1,5 @@
+Q.. 1 What is a Constructor?
+ Ans : - A constructor is a special method in a class used to initialize objects.
+        Name of constructor = Name of class
+        No return type (not even void)
+        Automatically called when an object is created
