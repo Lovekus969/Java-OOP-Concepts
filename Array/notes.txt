@@ -40,3 +40,6 @@ Initialization of Elements:=>
             BMW[] cars = new BMW[2];  // cars[0] and cars[1] are null initially
             cars[0] = new M4CS(280, 4.1);
             cars[1] = new M5CS(305, 3.8);
+
+Multidimensional Arrays
+Definition: Array of arrays. Think of it like a table with rows and columns.
