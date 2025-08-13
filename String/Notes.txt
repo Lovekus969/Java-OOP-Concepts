@@ -1,0 +1,4 @@
+String
+
+Immutable → once created, its value cannot be changed.
+Stored in String Constant Pool (helps save memory for duplicate strings).
