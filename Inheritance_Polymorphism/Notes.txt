@@ -8,7 +8,16 @@ Parent Class :==>> The base class whose properties and methods are inherited by 
                                         void start() {
                                             System.out.println("Vehicle starts");
                                         }
-                                    }                      
+                                    }  
+
+Subclass / Child Class : ==>> The class that inherits from the parent class.
+            Uses the extends keyword
+                                      class Car extends Vehicle {
+                                          void honk() {
+                                              System.out.println("Car honks");
+                                          }
+                                      }
+
 
 What is Polymorphism?
 
