@@ -3,16 +3,21 @@
                               UML basics (optional but useful)
 
 
-Association:=>>
+1. Association:=>>
     Definition:      A loose relationship between two classes.
 
 Characteristics:
                      One class uses another class.
                      No ownership; objects can exist independently.
 
-Aggregation: =>>
+2. Aggregation: =>>
    Definition:       A has-a relationship with weak ownership.
 
 Characteristics:
-
                     The contained object can exist independently of the parent.
+
+3. Composition
+   Definition:       A strong has-a relationship with ownership.
+
+Characteristics:
+                     The contained object cannot exist without the parent.
