@@ -1,12 +1,9 @@
 
 Problems
 ● How can you create a constant?
-● How can you declare data that is shared by
-all instances of a given class?
-● How can you prevent a class from being
-subclassed?
-● How can you prevent a method from being
-overridden?
+● How can you declare data that is shared by all instances of a given class?
+● How can you prevent a class from being subclassed?
+● How can you prevent a method from being overridden?
 
 What are Static Members?
 Static variables (class variables): shared by all instances of a class.
@@ -14,3 +11,7 @@ Static methods: belong to the class, not objects. Can access only static variabl
 
 How can you create a constant?
 Use the final keyword to make a constant. Often combined with static if shared by all objects.
+
+How can you declare data shared by all instances?
+Simply use static keyword for variables:
+
