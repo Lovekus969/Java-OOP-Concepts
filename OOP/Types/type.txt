@@ -49,8 +49,13 @@ let see the example here : -
             }
 
  Casting: => 
+
             Converting one type to another
             Primitive Casting:
             Widening (automatic): int → double
             Narrowing (manual): double → int
-
+: lets see the example for casting here : 
+as we can cast small data to big data  but cant vise versa
+          int x = 100;
+          double y = x;    // widening
+          int z = (int) y; // narrowing
