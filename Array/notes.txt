@@ -14,3 +14,15 @@ Creating Arrays:=>
 
                                                       Syntax:
                                                       arrayName = new dataType[size];
+
+ Arrays of Primitive and Reference Types :=>
+  Primitive Type Array: stores actual values.
+                  int[] speeds = {280, 305, 320};
+                  System.out.println(speeds[1]); // 305
+
+
+Reference Type Array: stores references (memory addresses) to objects.
+
+            BMW[] myCars = new BMW[2];
+            myCars[0] = new M4CS(280, 4.1);
+            myCars[1] = new M5CS(305, 3.8);
