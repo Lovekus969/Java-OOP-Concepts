@@ -3,3 +3,8 @@ Q.. 1 What is a Constructor?
         Name of constructor = Name of class
         No return type (not even void)
         Automatically called when an object is created
+
+Types of Constructors
+a) Default Constructor
+No parameters
+ If you don’t define any constructor, Java provides a default constructor automatically
