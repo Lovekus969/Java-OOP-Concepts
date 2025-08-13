@@ -32,7 +32,10 @@ See some oops concept :
                                 Runnable interface vs Thread class
                                 Synchronization basics
               10 GUI Programming 
+                                Swing basics (JFrame, JButton, JLabel)
+                                Event handling
               11 Collections and generics
+              
               12 Serialization 
               
 OOps conceptw are important 
