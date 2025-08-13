@@ -35,8 +35,13 @@ See some oops concept :
                                 Swing basics (JFrame, JButton, JLabel)
                                 Event handling
               11 Collections and generics
-              
+                                List, Set, Map, Queue
+                                Generic classes and methods
+                                Iterators and enhanced for-loop
               12 Serialization 
+                                Serializable interface
+                                ObjectOutputStream / ObjectInputStream
+                                Transient keyword
               
 OOps conceptw are important 
 java is important and most important is Quant Aptitute i eill attactc book here book for Aptitude# Java-OOP-Concepts
