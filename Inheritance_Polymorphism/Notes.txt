@@ -14,7 +14,7 @@ Definition: The ability of an object to take many forms — the same method name
                         Compile-time Polymorphism (Method Overloading)
                         Runtime Polymorphism (Method Overriding)
 
-Method Overloading (Compile-time)                           ( trick is L -> Compile)
+Method Overloading (Compile-time)                           ( trick is L -> Compile time)
          ==>   Same method name, different parameter list.
 
 
