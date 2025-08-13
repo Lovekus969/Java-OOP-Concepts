@@ -19,6 +19,8 @@ See some oops concept :
                               extends keyword, method overriding
                               Dynamic vs static polymorphism
               6 interfaces and abstract classes 
+                              interface vs abstract class
+                              When to use each
               7 exceptions 
               8 nested classes 
               9 threads 
