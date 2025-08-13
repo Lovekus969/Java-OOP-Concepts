@@ -9,6 +9,9 @@ See some oops concept :
                             Constructors (default, parameterized)
                             this keyword, method calling
               3 Static Members 
+                            static variables and methods
+                             Static blocks
+                            final keyword
               4 Relationship bw classes 
               5 inheritance and polymorphism 
               6 interfaces and abstract classes 
