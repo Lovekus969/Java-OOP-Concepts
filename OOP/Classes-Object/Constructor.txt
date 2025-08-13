@@ -8,3 +8,9 @@ Types of Constructors
 a) Default Constructor
 No parameters
  If you don’t define any constructor, Java provides a default constructor automatically
+
+b) Parameterized Constructor
+Takes arguments to initialize an object
+
+c) Copy Constructor (not built-in like C++, but can implement in Java)
+Creates a new object by copying another object
