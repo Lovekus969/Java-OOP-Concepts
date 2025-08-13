@@ -1,0 +1,15 @@
+Object-oriented programming
+Classes and Objects
+● Class
+● Attributes and methods
+● Object (instance)
+● Information hiding
+● Encapsulation
+● Constructors
+● Packages
+
+Class
+● Is a user-defined type
+− Describes the data (attributes)
+− Defines the behavior (methods)
+● Instances of a class are objects
