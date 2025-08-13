@@ -9,3 +9,8 @@ Declaring Arrays :=>
       Declaring an array means telling Java what type of elements it will store.
                                                       Syntax:
                                                       dataType[] arrayName;
+Creating Arrays:=>
+      After declaration, we create the array in memory using new.
+
+                                                      Syntax:
+                                                      arrayName = new dataType[size];
