@@ -2,3 +2,14 @@ What is Inheritance?
 
 Definition: In OOP, inheritance is when one class acquires the properties and behaviors (fields and methods) of another class.
 Purpose: Promotes code reuse and represents "is-a" relationships.
+
+
+
+
+What is Polymorphism?
+
+Definition: The ability of an object to take many forms — the same method name can behave differently based on the object calling it.
+
+            Two Types:
+                        Compile-time Polymorphism (Method Overloading)
+                        Runtime Polymorphism (Method Overriding)
