@@ -1,6 +1,9 @@
 See some oops concept :
               Goals : 
               1 java Language 
+                              Data types, variables, operators, control statements
+                              Loops and arrays
+                              Methods and method overloading
               2 Object and classes 
               3 Static Members 
               4 Relationship bw classes 
