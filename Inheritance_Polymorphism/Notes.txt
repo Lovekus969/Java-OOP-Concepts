@@ -37,3 +37,6 @@ Method Overriding (Runtime)
 Achieved through inheritance.
 
 The instanceof Operator   : ==>> Checks if an object is an instance of a specific class or subclass.
+
+
+Heterogeneous Collections: ==>> A collection that stores objects of different types but usually shares a common parent.
