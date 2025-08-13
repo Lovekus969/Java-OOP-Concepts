@@ -1,0 +1,9 @@
+
+Problems
+● How can you create a constant?
+● How can you declare data that is shared by
+all instances of a given class?
+● How can you prevent a class from being
+subclassed?
+● How can you prevent a method from being
+overridden?
