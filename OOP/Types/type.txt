@@ -6,3 +6,9 @@ Types
 ● The this reference
 ● Variables and Scope
 ● Casting
+
+Let's talk about one by one : 
+  Primitive :=>
+          Basic data types built into Java.
+          Stored directly in memory (stack).
+          Examples: int, float, double, boolean, char, byte, short, long.
