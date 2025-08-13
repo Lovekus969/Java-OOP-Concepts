@@ -12,3 +12,12 @@ Let's talk about one by one :
           Basic data types built into Java.
           Stored directly in memory (stack).
           Examples: int, float, double, boolean, char, byte, short, long.
+          int speed = 280;  // primitive type
+          boolean isFast = true;
+
+
+ Reference Types : = > 
+        Objects created from classes are reference types.
+        Variables store reference (memory address), not the actual object.
+        Examples: Strings, Arrays, Custom Classes like BMW.
+````` BMW car1 = new M4-CS(280,4.1);
