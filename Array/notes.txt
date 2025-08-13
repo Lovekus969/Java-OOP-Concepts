@@ -26,3 +26,17 @@ Reference Type Array: stores references (memory addresses) to objects.
             BMW[] myCars = new BMW[2];
             myCars[0] = new M4CS(280, 4.1);
             myCars[1] = new M5CS(305, 3.8);
+
+Initialization of Elements:=>
+      Primitive arrays: default values: int = 0, boolean = false, etc.
+
+            int[] arr = new int[3];  // elements = [0,0,0]
+            arr[0] = 10;
+            arr[1] = 20;
+            arr[2] = 30;
+
+      Reference arrays: default values = null
+
+            BMW[] cars = new BMW[2];  // cars[0] and cars[1] are null initially
+            cars[0] = new M4CS(280, 4.1);
+            cars[1] = new M5CS(305, 3.8);
