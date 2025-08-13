@@ -20,3 +20,8 @@ Encapsulation
 ● Hides the implementation details of a class
 ● Forces the user to use an interface to access data
 ● Makes the code more maintainable
+
+
+Objects are instances of classes
+               A class is like a blueprint or template (e.g., BMW car   )                           An object is a real car built from that blueprint.
+              Each object can have its own data, even if created from the same class.
