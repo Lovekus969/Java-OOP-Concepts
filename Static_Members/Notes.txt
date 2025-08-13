@@ -7,3 +7,7 @@ all instances of a given class?
 subclassed?
 ● How can you prevent a method from being
 overridden?
+
+What are Static Members?
+Static variables (class variables): shared by all instances of a class.
+Static methods: belong to the class, not objects. Can access only static variables directly.
