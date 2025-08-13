@@ -4,7 +4,10 @@ See some oops concept :
                               Data types, variables, operators, control statements
                               Loops and arrays
                               Methods and method overloading
-              2 Object and classes 
+              2 Object and classes  
+                            Defining classes and objects
+                            Constructors (default, parameterized)
+                            this keyword, method calling
               3 Static Members 
               4 Relationship bw classes 
               5 inheritance and polymorphism 
