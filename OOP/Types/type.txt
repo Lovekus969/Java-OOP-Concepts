@@ -27,5 +27,9 @@ Parameter Passing =>>
           For primitive types, value is copied.
           For reference types, the reference (memory address) is copied, so object changes reflect outside.
 
+The this reference: =>
+        Refers to the current object.
+        Used to distinguish object fields from parameters.
+
 
 
