@@ -1,4 +1,7 @@
-String
+String : =>
+     Immutable → once created, its value cannot be changed.
+      Stored in String Constant Pool (helps save memory for duplicate strings).
 
-Immutable → once created, its value cannot be changed.
-Stored in String Constant Pool (helps save memory for duplicate strings).
+StringBuffer :=>
+      Mutable → can change its value without creating new object.
+      Thread-safe → methods are synchronized, safe in multithreading.
