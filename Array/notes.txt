@@ -3,3 +3,9 @@ Declaring arrays
 ● Arrays of primitive and reference type
 ● Initialization of elements
 ● Multidimensional arrays
+
+
+Declaring Arrays :=> 
+      Declaring an array means telling Java what type of elements it will store.
+                                                      Syntax:
+                                                      dataType[] arrayName;
