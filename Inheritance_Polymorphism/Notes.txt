@@ -15,5 +15,10 @@ Definition: The ability of an object to take many forms — the same method name
                         Runtime Polymorphism (Method Overriding)
 
 Method Overloading (Compile-time)                           ( trick is L -> Compile)
+         ==>   Same method name, different parameter list.
 
-            Same method name, different parameter list.
+
+Method Overriding (Runtime)
+        ==>>  Child class provides a specific implementation for a method that is already defined in its parent.                               ( trick is R -->Riding)
+
+Achieved through inheritance.
