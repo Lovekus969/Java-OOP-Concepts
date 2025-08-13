@@ -1,0 +1,8 @@
+Object-oriented programming
+Types
+● Primitive types
+● Reference Type
+● Parameter Passing
+● The this reference
+● Variables and Scope
+● Casting
