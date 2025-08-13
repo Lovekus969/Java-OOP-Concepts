@@ -5,3 +5,7 @@ String : =>
 StringBuffer :=>
       Mutable → can change its value without creating new object.
       Thread-safe → methods are synchronized, safe in multithreading.
+
+StringBuilder :=>
+     Same as StringBuffer, but not thread-safe.
+     Slightly faster because no synchronization.
