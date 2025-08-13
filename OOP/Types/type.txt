@@ -48,5 +48,9 @@ let see the example here : -
                 }
             }
 
-
+ Casting: => 
+            Converting one type to another
+            Primitive Casting:
+            Widening (automatic): int → double
+            Narrowing (manual): double → int
 
