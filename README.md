@@ -28,7 +28,9 @@ See some oops concept :
               8 nested classes 
                                 Static nested classes
                                 Inner classes, local classes, anonymous classes
-              9 threads 
+              9 threads
+                                Runnable interface vs Thread class
+                                Synchronization basics
               10 GUI Programming 
               11 Collections and generics
               12 Serialization 
