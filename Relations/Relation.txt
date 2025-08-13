@@ -2,7 +2,12 @@
                               Association, Aggregation, Composition
                               UML basics (optional but useful)
 
+Association represents a relationship between two classes, showing that one class uses or is connected to another.
 
+It’s like a mathematical relation:
+                                     One-to-one
+                                     One-to-many
+                                     Many-to-many
 1. Association:=>>
     Definition:      A loose relationship between two classes.
 
