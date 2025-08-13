@@ -21,3 +21,14 @@ Use final keyword on the class
 
 How can you prevent a method from being overridden?
 Use final keyword on the method
+
+Lets see more about the keyword final 
+  Final Class :==>>
+    A class declared as final cannot be subclassed. Useful when you want to prevent inheritance.
+
+                final class BMW {
+                    void showBrand() {
+                        System.out.println("BMW Brand");
+                    }
+                }
+
