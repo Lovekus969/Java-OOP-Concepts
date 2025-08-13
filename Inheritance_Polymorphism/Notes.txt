@@ -1,0 +1,4 @@
+What is Inheritance?
+
+Definition: In OOP, inheritance is when one class acquires the properties and behaviors (fields and methods) of another class.
+Purpose: Promotes code reuse and represents "is-a" relationships.
