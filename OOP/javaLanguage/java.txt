@@ -1,1 +1,23 @@
 
+● 1991 - Green Project for consumer electronics market (Oaklanguage → Java)
+● 1994 – HotJava Web browser
+● 1995 – Sun announces Java
+● 1996 – JDK 1.0 - James Gosling
+● 1997 – JDK 1.1 RMI, AWT, Servlets
+● 1998 – Java 1.2 Reflection, Swing, Collections
+● 2004 – J2SE 1.5 (Java 5) Generics, enums
+● 2014 – Java SE 8 Lambdas - functional programming
+            Margit Antal
+            Short History
+● 2017 - Java SE 9
+● 2018 - Java SE 10, Java SE 11
+● 2019 - Java SE 12, Java SE 13
+● 2020 - Java SE 14, Java SE 15
+● 2021 - Java SE 16, Java SE 17
+● 2022 - Java SE 18, Java SE 19
+● 2023 - Java SE 20
+● 2024 - Java SE 23
+            Java technology
+● JDK – Java Development Kit
+● JRE – Java Runtime Environment
+● JVM – Java Virtual Machine
