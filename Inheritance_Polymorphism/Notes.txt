@@ -3,8 +3,12 @@ What is Inheritance?
 Definition: In OOP, inheritance is when one class acquires the properties and behaviors (fields and methods) of another class.
 Purpose: Promotes code reuse and represents "is-a" relationships.
 
-
-
+Parent Class :==>> The base class whose properties and methods are inherited by other classes.
+                                      class Vehicle {
+                                        void start() {
+                                            System.out.println("Vehicle starts");
+                                        }
+                                    }                      
 
 What is Polymorphism?
 
