@@ -1,3 +1,11 @@
  Relationship b/w classes 
                               Association, Aggregation, Composition
                               UML basics (optional but useful)
+
+
+Association:=>>
+    Definition:      A loose relationship between two classes.
+
+Characteristics:
+                     One class uses another class.
+                     No ownership; objects can exist independently.
