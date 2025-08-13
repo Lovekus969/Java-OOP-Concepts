@@ -15,3 +15,6 @@ Use the final keyword to make a constant. Often combined with static if shared b
 How can you declare data shared by all instances?
 Simply use static keyword for variables:
 
+How can you prevent a class from being subclassed?
+Use final keyword on the class
+
