@@ -1,0 +1,5 @@
+Declaring arrays
+● Creating arrays
+● Arrays of primitive and reference type
+● Initialization of elements
+● Multidimensional arrays
