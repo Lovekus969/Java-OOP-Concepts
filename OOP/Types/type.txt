@@ -31,5 +31,22 @@ The this reference: =>
         Refers to the current object.
         Used to distinguish object fields from parameters.
 
+Variables and Scope : =>
+        Instance Variables → belong to object, accessible anywhere in class
+        Static Variables → belong to class, shared by all objects
+        Local Variables → declared inside method, exist only during method execution
+        Block Scope → variables exist only inside { } block
+let see the example here : - 
+           
+
+          class BMW {
+                static int carCount = 0; // static variable
+                int topSpeed;             // instance variable
+            
+                void updateSpeed() {
+                    int temp = 10;        // local variable, only inside this method
+                }
+            }
+
 
 
