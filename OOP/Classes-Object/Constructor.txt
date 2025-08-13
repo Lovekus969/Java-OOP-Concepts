@@ -14,3 +14,9 @@ Takes arguments to initialize an object
 
 c) Copy Constructor (not built-in like C++, but can implement in Java)
 Creates a new object by copying another object
+
+ Key Points: - >
+           Constructor cannot have a return type
+           Automatically called when object is created
+           You can overload constructors in the same class
+
