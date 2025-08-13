@@ -32,3 +32,17 @@ Lets see more about the keyword final
                     }
                 }
 
+
+about final method 
+Final Method :==>>
+A method declared as final cannot be overridden in subclasses.
+
+          class BMW {
+              final void startEngine() {
+                  System.out.println("Engine started!");
+              }
+          }
+          
+          class M4CS extends BMW {
+              //  void startEngine() {} // Error: cannot override final method
+          }
