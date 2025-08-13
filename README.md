@@ -16,6 +16,8 @@ See some oops concept :
                               Association, Aggregation, Composition
                               UML basics (optional but useful)
               5 inheritance and polymorphism 
+                              extends keyword, method overriding
+                              Dynamic vs static polymorphism
               6 interfaces and abstract classes 
               7 exceptions 
               8 nested classes 
