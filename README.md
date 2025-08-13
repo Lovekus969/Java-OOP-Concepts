@@ -26,7 +26,8 @@ See some oops concept :
                                 Custom exceptions
                                 Checked vs unchecked exceptions
               8 nested classes 
-              
+                                Static nested classes
+                                Inner classes, local classes, anonymous classes
               9 threads 
               10 GUI Programming 
               11 Collections and generics
