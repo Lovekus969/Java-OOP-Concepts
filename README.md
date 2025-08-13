@@ -22,7 +22,11 @@ See some oops concept :
                               interface vs abstract class
                               When to use each
               7 exceptions 
+                                try-catch-finally
+                                Custom exceptions
+                                Checked vs unchecked exceptions
               8 nested classes 
+              
               9 threads 
               10 GUI Programming 
               11 Collections and generics
