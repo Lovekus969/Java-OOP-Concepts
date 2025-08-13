@@ -11,3 +11,6 @@ overridden?
 What are Static Members?
 Static variables (class variables): shared by all instances of a class.
 Static methods: belong to the class, not objects. Can access only static variables directly.
+
+How can you create a constant?
+Use the final keyword to make a constant. Often combined with static if shared by all objects.
