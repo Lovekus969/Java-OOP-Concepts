@@ -24,3 +24,11 @@ Multiple inheritance of behavior
                         Loose coupling:=> Code using an interface doesn’t care about the actual class — it just knows the class follows the rules in the interface.   
                         Scalability:=> You can add new classes later without changing the code that uses the interface.
                         Testability :=> Interfaces make it easy to mock classes during testing (common in big applications).
+
+Significance of Interfaces in Computer Science
+                        Interfaces aren’t just a Java feature — the concept is huge in software engineering and CS:
+                        Encapsulation of behavior → Only the what, not the how.
+                        Design by contract → Forces a structure in your code.
+                        Supports polymorphism → The same variable can refer to different types of objects as long as they share an interface.
+                        Used in API design → Many Java APIs, frameworks, and libraries rely heavily on interfaces so users can plug in their own implementations.
+                        Foundations of large systems → In microservices, different services communicate through “interfaces” (protocols, APIs).
