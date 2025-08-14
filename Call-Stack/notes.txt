@@ -9,3 +9,9 @@
       Method parameters
       Local variables
       Return address (where to continue after the method finishes)
+
+3. Call Stack & Exceptions
+
+      When an exception occurs, the JVM traces back the stack to find a method that handles it.
+      This is called stack unwinding.
+      If no handler is found, the program terminates.
