@@ -1,0 +1,6 @@
+        What is an Interface?
+
+                              In Java (and in OOP generally), an interface is like a contract or blueprint that defines what methods a class must have, but not how they are implemented.
+                              It only specifies the method signatures (name, return type, parameters).
+                              No implementation details inside (except for default and static methods after Java 8).
+                              A class that uses (implements) an interface must provide the method bodies.
