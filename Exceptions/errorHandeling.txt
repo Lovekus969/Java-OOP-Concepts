@@ -46,3 +46,9 @@ Exception Hierarchy in Java
                   │    └── RuntimeException (Unchecked Exceptions)
                   │
                   └── Error  (Serious JVM problems)
+
+try block → Code that might throw an exception goes here.
+
+catch block → Runs if the exception occurs; it “catches” and handles it.
+
+After handling, the program continues execution instead of crashing.
