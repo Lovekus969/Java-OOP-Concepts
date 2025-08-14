@@ -52,3 +52,10 @@ try block → Code that might throw an exception goes here.
 catch block → Runs if the exception occurs; it “catches” and handles it.
 
 After handling, the program continues execution instead of crashing.
+                                                      
+                                                      Exception Hierarchy
+                                                                  
+                                                                  Throwable → Base class for all errors/exceptions
+                                                                  Exception (checked) → must handle (IOException, SQLException)
+                                                                  RuntimeException (unchecked) → no mandatory handling (NullPointerException, ArithmeticException)
+                                                                  Error → serious system errors (OutOfMemoryError, StackOverflowError)
