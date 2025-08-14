@@ -38,3 +38,11 @@ Best example for the eroor called IOEception which says file not found or 404
                      Examples:
                               OutOfMemoryError
                               StackOverflowError
+
+Exception Hierarchy in Java
+                  Throwable
+                  │
+                  ├── Exception  (Checked Exceptions)
+                  │    └── RuntimeException (Unchecked Exceptions)
+                  │
+                  └── Error  (Serious JVM problems)
