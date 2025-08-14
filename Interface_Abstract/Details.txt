@@ -40,3 +40,7 @@ An abstract class in Java is a class that:
 Why the name "Abstract"?
                         The word abstract means "incomplete" or "conceptual" —
                         An abstract class is incomplete on its own because it has some methods that do not have implementations yet.
+When to Use Abstract Classes
+                        When you have a base class with common code that should be shared among subclasses.
+                        When you want to force subclasses to implement certain methods but still provide other ready-to-use methods.
+                        When classes are closely related in a hierarchy
