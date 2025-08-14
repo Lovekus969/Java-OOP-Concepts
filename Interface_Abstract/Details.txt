@@ -37,3 +37,6 @@ An abstract class in Java is a class that:
                         Cannot be instantiated directly (you cannot create an object of it).
                         Can have both abstract methods (without a body) and normal methods (with a body).
                         Is meant to be inherited by other classes that will provide the implementation for the abstract methods.
+Why the name "Abstract"?
+                        The word abstract means "incomplete" or "conceptual" —
+                        An abstract class is incomplete on its own because it has some methods that do not have implementations yet.
