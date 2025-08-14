@@ -58,6 +58,12 @@ Inheritance: One class inherits properties from another.  e.g, 	Child inherits t
 Polymorphism: Same action behaves differently in different contexts	e.g , person acts differently at home and work
 
 
+Static Nested Class:=>
+            Declared with the static keyword inside another class.
+            Can access only static members of the outer class.
+            Acts like a normal top-level class but is scoped inside the outer class.
+
+
 
 
 
