@@ -59,3 +59,8 @@ After handling, the program continues execution instead of crashing.
                                                                   Exception (checked) → must handle (IOException, SQLException)
                                                                   RuntimeException (unchecked) → no mandatory handling (NullPointerException, ArithmeticException)
                                                                   Error → serious system errors (OutOfMemoryError, StackOverflowError)
+
+            2. Checked vs Unchecked
+
+                                    Checked → Compile-time, recoverable, must handle (FileNotFoundException)
+                                    Unchecked → Runtime, programmer errors (ArrayIndexOutOfBoundsException)
