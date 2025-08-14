@@ -57,3 +57,9 @@ Why ADT is important:
 
 What is the Driveable Interface?
                 A Driveable interface could be an Abstract Data Type (ADT) that defines a contract for any vehicle or object that can be "driven."
+
+Why This is Important in OOP:=>
+
+                Abstraction → We define "drivable" behavior without worrying about the actual type of vehicle.
+                Polymorphism → One reference type (Driveable) can point to many different object types.
+                Extensibility → Tomorrow, i can add a Truck or ElectricScooter without changing existing code
