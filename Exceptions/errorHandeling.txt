@@ -31,4 +31,10 @@ Best example for the eroor called IOEception which says file not found or 404
                               ArithmeticException  (Best example)
                                                                                                 int[] arr = {1, 2, 3};
                                                                                                 System.out.println(arr[5]); // ArrayIndexOutOfBoundsException
+      C. Errors
 
+      Not really exceptions; they represent serious problems that applications should not try to handle.Caused by JVM issues, like running out of memory.
+
+                     Examples:
+                              OutOfMemoryError
+                              StackOverflowError
