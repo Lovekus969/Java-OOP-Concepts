@@ -3,3 +3,9 @@
       The call stack is a stack data structure used by the JVM to keep track of method calls.
       Whenever a method is invoked, a stack frame is created and pushed onto the stack.
       When the method finishes, its frame is popped off the stack.
+2.Stack Frame
+
+      Each stack frame contains:
+      Method parameters
+      Local variables
+      Return address (where to continue after the method finishes)
