@@ -54,3 +54,6 @@ ADT — Abstract Data Type
 
 Why ADT is important:
                 It allows flexibility — you can have different implementations without changing the code that uses it.It hides implementation details (abstraction).
+
+What is the Driveable Interface?
+                A Driveable interface could be an Abstract Data Type (ADT) that defines a contract for any vehicle or object that can be "driven."
