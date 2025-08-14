@@ -19,3 +19,13 @@ Best example for the eroor called IOEception which says file not found or 404
                   } catch (IOException e) {
                       System.out.println("File not found: " + e.getMessage());
                   }
+      B. Unchecked Exceptions (Runtime Exceptions)
+                  Checked at runtime, not at compile time.
+                  Usually due to programming mistakes.
+                  We don’t need to declare them in throws or handle them.
+
+                        Examples:
+
+                              NullPointerException
+                              ArrayIndexOutOfBoundsException
+                              ArithmeticException
