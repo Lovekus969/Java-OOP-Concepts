@@ -51,3 +51,6 @@ ADT — Abstract Data Type
         Example: Stack                                                                                                            |      |
                 Operations: push(), pop(), peek()                                                                                 |______|
                 Doesn’t specify whether it’s implemented with array or linked list — that’s left to the class that implements it.
+
+Why ADT is important:
+                It allows flexibility — you can have different implementations without changing the code that uses it.It hides implementation details (abstraction).
