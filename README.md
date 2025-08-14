@@ -66,6 +66,9 @@ Inner Class (Non-static)
             Belongs to an instance of the outer class.
             Can access both instance and static members of the outer class.
             Requires an instance of the outer class to be created.
+Anonymous Inner Class
+            A class without a name.
+            Used for one-time use (often with interfaces or abstract classes).
 
 
 
