@@ -11,6 +11,9 @@ Types of Exceptions in Java:=>
             The compiler forces you to handle them using try-catch or throws.
             They represent recoverable problems.
 Best example for the eroor called IOEception which says file not found or 404 
+
+
+
                   try {
                       FileReader file = new FileReader("data.txt");
                   } catch (IOException e) {
