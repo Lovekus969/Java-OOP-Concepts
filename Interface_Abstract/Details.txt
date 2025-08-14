@@ -11,3 +11,9 @@
                         The socket’s shape and pins are like an interface — it defines what a plug should look like.
                         The actual current/voltage generation is hidden — that’s the implementation.
                         Different devices (fan, phone charger, lamp) can all work with the same socket as long as they follow the standard.
+        Why Do We Need Interfaces?
+
+                        Without interfaces, our code would be:
+                        Less flexible
+                        Harder to extend
+                        More tightly coupled
