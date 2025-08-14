@@ -1,5 +1,12 @@
 What is an Exception?
 
-An exception is an object that represents an error or an unexpected event.
-When it occurs, Java creates an object of a certain Exception class and “throws” it.
-If it’s not “caught” (handled), your program will stop.
+      An exception is an object that represents an error or an unexpected event.
+      When it occurs, Java creates an object of a certain Exception class and “throws” it.
+      If it’s not “caught” (handled), my program will stop.
+
+Types of Exceptions in Java:=>
+      Java exceptions can be grouped into three main categories:
+  A. Checked Exceptions
+            Checked at compile time.
+            The compiler forces you to handle them using try-catch or throws.
+            They represent recoverable problems.
