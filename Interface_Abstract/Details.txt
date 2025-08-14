@@ -4,3 +4,10 @@
                               It only specifies the method signatures (name, return type, parameters).
                               No implementation details inside (except for default and static methods after Java 8).
                               A class that uses (implements) an interface must provide the method bodies.
+
+        Real-world analogy
+                        
+                        Think of an electrical socket:
+                        The socket’s shape and pins are like an interface — it defines what a plug should look like.
+                        The actual current/voltage generation is hidden — that’s the implementation.
+                        Different devices (fan, phone charger, lamp) can all work with the same socket as long as they follow the standard.
