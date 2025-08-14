@@ -44,3 +44,10 @@ When to Use Abstract Classes
                         When you have a base class with common code that should be shared among subclasses.
                         When you want to force subclasses to implement certain methods but still provide other ready-to-use methods.
                         When classes are closely related in a hierarchy
+
+ADT — Abstract Data Type
+                An ADT is a model of a data structure that defines what operations can be done, but not how they are done.        |Stack |
+                                                                                                                                  |      |
+        Example: Stack                                                                                                            |      |
+                Operations: push(), pop(), peek()                                                                                 |______|
+                Doesn’t specify whether it’s implemented with array or linked list — that’s left to the class that implements it.
