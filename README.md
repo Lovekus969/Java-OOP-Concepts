@@ -62,6 +62,10 @@ Static Nested Class:=>
             Declared with the static keyword inside another class.
             Can access only static members of the outer class.
             Acts like a normal top-level class but is scoped inside the outer class.
+Inner Class (Non-static)
+            Belongs to an instance of the outer class.
+            Can access both instance and static members of the outer class.
+            Requires an instance of the outer class to be created.
 
 
 
