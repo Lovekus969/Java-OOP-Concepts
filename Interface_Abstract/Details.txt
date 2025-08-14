@@ -17,3 +17,10 @@
                         Less flexible
                         Harder to extend
                         More tightly coupled
+Key reasons:
+
+Multiple inheritance of behavior
+                        Java doesn’t allow a class to extend more than one class, but a class can implement multiple interfaces.
+                        Loose coupling:=> Code using an interface doesn’t care about the actual class — it just knows the class follows the rules in the interface.   
+                        Scalability:=> You can add new classes later without changing the code that uses the interface.
+                        Testability :=> Interfaces make it easy to mock classes during testing (common in big applications).
