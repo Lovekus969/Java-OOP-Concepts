@@ -32,3 +32,8 @@ Significance of Interfaces in Computer Science
                         Supports polymorphism → The same variable can refer to different types of objects as long as they share an interface.
                         Used in API design → Many Java APIs, frameworks, and libraries rely heavily on interfaces so users can plug in their own implementations.
                         Foundations of large systems → In microservices, different services communicate through “interfaces” (protocols, APIs).
+
+An abstract class in Java is a class that:
+                        Cannot be instantiated directly (you cannot create an object of it).
+                        Can have both abstract methods (without a body) and normal methods (with a body).
+                        Is meant to be inherited by other classes that will provide the implementation for the abstract methods.
