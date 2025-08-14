@@ -70,3 +70,8 @@ After handling, the program continues execution instead of crashing.
                                     try → code that may fail
                                     catch → handles specific exception
                                     finally → always runs, used for cleanup
+
+            Throw vs Throws
+
+                        throw → used to throw a single exception
+                        throws → used in method signature to declare possible exceptions
