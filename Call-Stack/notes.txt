@@ -15,3 +15,10 @@
       When an exception occurs, the JVM traces back the stack to find a method that handles it.
       This is called stack unwinding.
       If no handler is found, the program terminates.
+Key Points to Remember (FAANG)
+
+      Stack is LIFO → last method called is first to finish
+      Stack frame stores parameters, local variables, return address
+      Recursion heavily uses call stack → beware of StackOverflowError
+      Exceptions trigger stack unwinding → trace shows exact flow
+      Memory limited → deep recursion may cause stack overflow
