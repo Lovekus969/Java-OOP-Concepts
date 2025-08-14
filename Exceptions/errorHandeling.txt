@@ -53,14 +53,20 @@ catch block → Runs if the exception occurs; it “catches” and handles it.
 
 After handling, the program continues execution instead of crashing.
                                                       
-                                                      Exception Hierarchy
+            1.  Exception Hierarchy
                                                                   
-                                                                  Throwable → Base class for all errors/exceptions
-                                                                  Exception (checked) → must handle (IOException, SQLException)
-                                                                  RuntimeException (unchecked) → no mandatory handling (NullPointerException, ArithmeticException)
-                                                                  Error → serious system errors (OutOfMemoryError, StackOverflowError)
+                                     Throwable → Base class for all errors/exceptions
+                                     Exception (checked) → must handle (IOException, SQLException) 
+                                     RuntimeException (unchecked) → no mandatory handling (NullPointerException, ArithmeticException)
+                                    Error → serious system errors (OutOfMemoryError, StackOverflowError)
 
             2. Checked vs Unchecked
 
                                     Checked → Compile-time, recoverable, must handle (FileNotFoundException)
                                     Unchecked → Runtime, programmer errors (ArrayIndexOutOfBoundsException)
+
+            3. try-catch-finally
+
+                                    try → code that may fail
+                                    catch → handles specific exception
+                                    finally → always runs, used for cleanup
