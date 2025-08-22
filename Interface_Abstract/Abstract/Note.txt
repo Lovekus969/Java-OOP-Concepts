@@ -3,3 +3,5 @@ Abstract class works like a superclass
     It can have abstract methods (must be overridden in child classes).
     It can have normal methods (subclasses can directly use them, just like in a normal superclass).
     It cannot be instantiated directly (you can’t do new Animal() if Animal is abstract).
+
+So the abstract class is just a blueprint (you can’t directly use it), but subclasses fill in the details and create usable objects.
