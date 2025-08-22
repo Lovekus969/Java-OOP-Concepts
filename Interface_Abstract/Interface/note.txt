@@ -3,3 +3,13 @@ What is an Interface?
 An interface in Java is like a contract or blueprint for classes.
 It tells:
  “Any class that implements me MUST provide implementations for my methods.”
+                                                         
+        Key Points about Interfaces   ==>>
+                                      Declared using the interface keyword Can contain:
+                                      Abstract methods (no body, just signatures).
+                                      Default methods (with body, introduced in Java 8).
+                                      Static methods (with body).
+                                      Constants (public static final by default).
+                                      A class implements an interface (not extends).
+                                      A class can implement multiple interfaces → this is Java’s way of supporting multiple inheritance.
+                                      You cannot create objects of an interface.
