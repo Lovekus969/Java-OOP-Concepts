@@ -1,0 +1,5 @@
+What is an Interface?
+
+An interface in Java is like a contract or blueprint for classes.
+It tells:
+ “Any class that implements me MUST provide implementations for my methods.”
