@@ -1,171 +1,214 @@
-class FordCar {
+class CruiseControl {
 
-    // ==========================
-    // Fields (State of the Car)
-    // ==========================
+    boolean active = false;
+    int targetSpeed;
 
-    String model = "Ford Mustang";
-    String color = "Blue";
 
-    int speed = 0;
-    int fuel = 100;
-    int temperature = 22;
+    void activate(int speed) {
+        active = true;
+        targetSpeed = speed;
 
-    boolean engineOn = false;
-    boolean doorLocked = true;
-    boolean headlightsOn = false;
-    boolean acOn = false;
-    boolean musicPlaying = false;
-    boolean trunkOpen = false;
-
-    // ==========================
-    // Methods (Driver Functions)
-    // ==========================
-
-    void startEngine() {
-        engineOn = true;
-        System.out.println("Engine Started.");
+        System.out.println("Cruise Control ON");
+        System.out.println("Target Speed: " + targetSpeed);
     }
 
-    void stopEngine() {
-        engineOn = false;
-        speed = 0;
-        System.out.println("Engine Stopped.");
+
+    void deactivate() {
+        active = false;
+        System.out.println("Cruise Control OFF");
     }
 
-    void accelerate() {
-        if (engineOn) {
-            speed += 20;
-            fuel -= 2;
-            System.out.println("Accelerating...");
-        } else {
-            System.out.println("Start the engine first.");
+
+    void maintainSpeed(FordCar car) {
+
+        if(active) {
+
+            if(car.speed < targetSpeed) {
+
+                car.speed += 5;
+                System.out.println(
+                    "Cruise Control Increasing Speed: "
+                    + car.speed
+                );
+
+            }
+
+            else if(car.speed > targetSpeed) {
+
+                car.speed -= 5;
+                System.out.println(
+                    "Cruise Control Reducing Speed: "
+                    + car.speed
+                );
+            }
+
+            else {
+                System.out.println(
+                    "Speed maintained: " 
+                    + car.speed
+                );
+            }
         }
-    }
-
-    void brake() {
-        if (speed > 0) {
-            speed -= 20;
-            if (speed < 0)
-                speed = 0;
-            System.out.println("Brake Applied.");
-        }
-    }
-
-    void lockDoors() {
-        doorLocked = true;
-        System.out.println("Doors Locked.");
-    }
-
-    void unlockDoors() {
-        doorLocked = false;
-        System.out.println("Doors Unlocked.");
-    }
-
-    void turnOnHeadlights() {
-        headlightsOn = true;
-        System.out.println("Headlights ON.");
-    }
-
-    void turnOffHeadlights() {
-        headlightsOn = false;
-        System.out.println("Headlights OFF.");
-    }
-
-    void turnOnAC() {
-        acOn = true;
-        System.out.println("AC Turned ON.");
-    }
-
-    void turnOffAC() {
-        acOn = false;
-        System.out.println("AC Turned OFF.");
-    }
-
-    void setTemperature(int temp) {
-        temperature = temp;
-        System.out.println("Temperature set to " + temperature + "°C");
-    }
-
-    void playMusic() {
-        musicPlaying = true;
-        System.out.println("Playing Music...");
-    }
-
-    void stopMusic() {
-        musicPlaying = false;
-        System.out.println("Music Stopped.");
-    }
-
-    void openTrunk() {
-        trunkOpen = true;
-        System.out.println("Trunk Opened.");
-    }
-
-    void closeTrunk() {
-        trunkOpen = false;
-        System.out.println("Trunk Closed.");
-    }
-
-    void honkHorn() {
-        System.out.println("Beep! Beep!");
-    }
-
-    void showDashboard() {
-
-        System.out.println("\n========== FORD DASHBOARD ==========");
-        System.out.println("Model        : " + model);
-        System.out.println("Color        : " + color);
-        System.out.println("Engine       : " + (engineOn ? "ON" : "OFF"));
-        System.out.println("Speed        : " + speed + " km/h");
-        System.out.println("Fuel         : " + fuel + "%");
-        System.out.println("Doors        : " + (doorLocked ? "Locked" : "Unlocked"));
-        System.out.println("Headlights   : " + (headlightsOn ? "ON" : "OFF"));
-        System.out.println("AC           : " + (acOn ? "ON" : "OFF"));
-        System.out.println("Temperature  : " + temperature + "°C");
-        System.out.println("Music        : " + (musicPlaying ? "Playing" : "Stopped"));
-        System.out.println("Trunk        : " + (trunkOpen ? "Open" : "Closed"));
-        System.out.println("====================================");
     }
 }
 
-public class Main {
 
-    public static void main(String[] args) {
+class SafetySensor {
 
-        // Creating Object
-        FordCar myCar = new FordCar();
+    boolean obstacleDetected = false;
 
-        // Driver Starts Using the Car
-        myCar.showDashboard();
 
-        myCar.unlockDoors();
-        myCar.startEngine();
+    void detectObstacle() {
 
-        myCar.accelerate();
-        myCar.accelerate();
+        obstacleDetected = true;
 
-        myCar.turnOnHeadlights();
+        System.out.println(
+            "Obstacle detected!"
+        );
+    }
 
-        myCar.turnOnAC();
-        myCar.setTemperature(18);
 
-        myCar.playMusic();
+    void stopCar(FordCar car) {
 
-        myCar.honkHorn();
+        if(obstacleDetected) {
 
-        myCar.openTrunk();
-        myCar.closeTrunk();
+            car.speed = 0;
 
-        myCar.brake();
+            System.out.println(
+                "Automatic Emergency Stop Activated"
+            );
+        }
+    }
+}
 
-        myCar.showDashboard();
 
-        myCar.stopMusic();
-        myCar.stopEngine();
 
-        myCar.lockDoors();
+public class FordCar {
 
-        myCar.showDashboard();
+
+    int speed = 0;
+    boolean engineOn = false;
+
+
+    // Creating objects
+    CruiseControl cruiseControl;
+    SafetySensor sensor;
+
+
+
+    // Constructor
+
+    FordCar(){
+
+        cruiseControl = new CruiseControl();
+
+        sensor = new SafetySensor();
+
+    }
+
+
+
+    void startEngine(){
+
+        engineOn = true;
+
+        System.out.println(
+            "Engine Started"
+        );
+    }
+
+
+
+    void accelerate(){
+
+        if(engineOn){
+
+            speed += 10;
+
+            System.out.println(
+                "Speed: " + speed
+            );
+        }
+
+    }
+
+
+
+    void brake(){
+
+        speed -= 10;
+
+        if(speed < 0)
+            speed = 0;
+
+
+        System.out.println(
+            "Brake Applied"
+        );
+    }
+
+
+
+    void showDashboard(){
+
+        System.out.println(
+            "Current Speed: " + speed
+        );
+
+    }
+
+
+
+    public static void main(String args[]){
+
+
+        // Creating Ford object
+
+        FordCar myFord = new FordCar();
+
+
+
+        myFord.startEngine();
+
+
+
+        myFord.accelerate();
+
+        myFord.accelerate();
+
+        myFord.accelerate();
+
+
+
+        // Enable Cruise Control
+
+        myFord.cruiseControl.activate(50);
+
+
+
+        // Cruise control maintains speed
+
+        myFord.cruiseControl.maintainSpeed(myFord);
+
+
+
+        myFord.cruiseControl.maintainSpeed(myFord);
+
+
+
+        // Sensor detects obstacle
+
+        myFord.sensor.detectObstacle();
+
+
+
+        // Automatic stop
+
+        myFord.sensor.stopCar(myFord);
+
+
+
+        myFord.showDashboard();
+
     }
 }
